@@ -50,14 +50,17 @@ html {
                     width: 100%;
                     transition: 0.3s;
                 }
-                img.item-image:hover {
-                    opacity: 0.5;
-                }
 
                 img.view-icon {
                     opacity: 0;
                     position: absolute;
                 }
+                img.view-icon:hover img.item-image {
+                    opacity: 0.5;
+                }
+            }
+            .item-container:hover img.item-image {
+                opacity: 0.5;
             }
             .item-container:hover img.view-icon {
                 transition: 0.3s;
