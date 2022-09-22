@@ -104,7 +104,9 @@ html {
                 }
             }
 
-            hr {
+            .hr {
+                background-color: var(--very-dark-blue-line);
+                height: 2px;
                 margin: 1rem 0;
                 color: var(--very-dark-blue-line);
             }

@@ -92,7 +92,9 @@ html body main .other-information p.available {
   color: var(--soft-blue);
   font-weight: 300;
 }
-html body main hr {
+html body main .hr {
+  background-color: var(--very-dark-blue-line);
+  height: 2px;
   margin: 1rem 0;
   color: var(--very-dark-blue-line);
 }
